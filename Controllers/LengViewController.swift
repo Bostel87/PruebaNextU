@@ -15,7 +15,7 @@ class LengViewController: UIViewController {
 
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         

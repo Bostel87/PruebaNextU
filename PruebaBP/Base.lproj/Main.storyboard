@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Lo View Controller-->
+        <!--LoViewController-->
         <scene sceneID="bEJ-y8-J8c">
             <objects>
-                <viewController id="COh-SP-Oww" customClass="LoViewController" customModule="PruebaBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="LoViewController" id="COh-SP-Oww" customClass="LoViewController" customModule="PruebaBP" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mVK-7Z-SrO"/>
                         <viewControllerLayoutGuide type="bottom" id="SOO-Oz-a5h"/>
@@ -51,7 +51,7 @@
                                     <action selector="Src:" destination="COh-SP-Oww" eventType="touchUpInside" id="cdq-WT-80A"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="while" translatesAutoresizingMaskIntoConstraints="NO" id="4x9-ab-qAC">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loop" translatesAutoresizingMaskIntoConstraints="NO" id="4x9-ab-qAC">
                                 <rect key="frame" x="30" y="58" width="314" height="153"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="314" id="E84-XW-pUF"/>
@@ -93,10 +93,10 @@
             </objects>
             <point key="canvasLocation" x="305" y="-1132"/>
         </scene>
-        <!--Co View Controller-->
+        <!--CoViewController-->
         <scene sceneID="Wtm-2k-xWF">
             <objects>
-                <viewController id="Uz3-1W-biy" customClass="CoViewController" customModule="PruebaBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="CoViewController" id="Uz3-1W-biy" customClass="CoViewController" customModule="PruebaBP" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KDD-Xt-bNQ"/>
                         <viewControllerLayoutGuide type="bottom" id="JLe-El-iTn"/>
@@ -105,7 +105,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Con" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3W8-Md-m9S">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Co" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3W8-Md-m9S">
                                 <rect key="frame" x="0.0" y="20" width="375" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="W0X-TK-0Md"/>
@@ -135,7 +135,7 @@
                                     <action selector="Src:" destination="Uz3-1W-biy" eventType="touchUpInside" id="fNO-Yt-quA"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Con" translatesAutoresizingMaskIntoConstraints="NO" id="422-M3-6dM">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="conditional" translatesAutoresizingMaskIntoConstraints="NO" id="422-M3-6dM">
                                 <rect key="frame" x="30" y="58" width="314" height="153"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="314" id="Naz-eI-Mjm"/>
@@ -177,10 +177,10 @@
             </objects>
             <point key="canvasLocation" x="1285.5999999999999" y="-1132.0839580209895"/>
         </scene>
-        <!--Cla View Controller-->
+        <!--ClaViewController-->
         <scene sceneID="GbS-Dg-eBA">
             <objects>
-                <viewController id="6EN-dS-G8L" customClass="ClaViewController" customModule="PruebaBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="ClaViewController" id="6EN-dS-G8L" customClass="ClaViewController" customModule="PruebaBP" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ehi-Ri-4MH"/>
                         <viewControllerLayoutGuide type="bottom" id="6Tf-vx-9gZ"/>
@@ -219,7 +219,7 @@
                                     <action selector="Src:" destination="6EN-dS-G8L" eventType="touchUpInside" id="U5L-UP-lhe"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ClaseEsp" translatesAutoresizingMaskIntoConstraints="NO" id="oGc-7B-Zs3">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="class" translatesAutoresizingMaskIntoConstraints="NO" id="oGc-7B-Zs3">
                                 <rect key="frame" x="30" y="58" width="314" height="153"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="314" id="oER-DB-xae"/>
@@ -261,10 +261,10 @@
             </objects>
             <point key="canvasLocation" x="2264.8000000000002" y="-1132.0839580209895"/>
         </scene>
-        <!--Root View Controller-->
+        <!--InformationTableView-->
         <scene sceneID="Ryx-MT-pYw">
             <objects>
-                <tableViewController clearsSelectionOnViewWillAppear="NO" id="fjN-gF-Yku" customClass="InformationTableViewController" customModule="PruebaBP" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="InformationTableView" clearsSelectionOnViewWillAppear="NO" id="fjN-gF-Yku" customClass="InformationTableViewController" customModule="PruebaBP" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="on5-Xo-IzJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -289,7 +289,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="BZk-h5-m6T" kind="showDetail" id="IMa-6X-lIQ"/>
+                                            <segue destination="BZk-h5-m6T" kind="showDetail" identifier="segAbs" id="IMa-6X-lIQ"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="xRQ-EN-Rb7">
@@ -309,7 +309,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="nEz-O5-vOK" kind="showDetail" id="3kc-ln-BUg"/>
+                                            <segue destination="nEz-O5-vOK" kind="showDetail" identifier="segAlg" id="3kc-ln-BUg"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="JbS-9K-xNu">
@@ -329,7 +329,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="6EN-dS-G8L" kind="showDetail" id="O36-iH-lpn"/>
+                                            <segue destination="6EN-dS-G8L" kind="showDetail" identifier="segCla" id="O36-iH-lpn"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="QYM-dr-hhS">
@@ -349,7 +349,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="Uz3-1W-biy" kind="showDetail" id="c98-z7-WoV"/>
+                                            <segue destination="Uz3-1W-biy" kind="showDetail" identifier="segCo" id="c98-z7-WoV"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="PzI-cG-efD">
@@ -369,7 +369,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="COh-SP-Oww" kind="showDetail" id="SO6-go-Vca"/>
+                                            <segue destination="COh-SP-Oww" kind="showDetail" identifier="segLo" id="SO6-go-Vca"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -393,7 +393,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="TC2-HV-C0n" kind="presentation" id="fx0-96-bQd"/>
+                                            <segue destination="TC2-HV-C0n" kind="presentation" identifier="segLeng" modalTransitionStyle="coverVertical" id="fx0-96-bQd"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -404,7 +404,7 @@
                             <outlet property="delegate" destination="fjN-gF-Yku" id="BgJ-VI-JfF"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="xWG-sM-VDZ"/>
+                    <navigationItem key="navigationItem" title="InformationTable" id="xWG-sM-VDZ"/>
                     <connections>
                         <outlet property="labelAbs" destination="wLt-4V-eNw" id="Bhu-mg-TXX"/>
                         <outlet property="labelAlg" destination="LRV-mK-fSz" id="nUC-Se-hpJ"/>
@@ -418,10 +418,10 @@
             </objects>
             <point key="canvasLocation" x="1286" y="-412"/>
         </scene>
-        <!--Abs View Controller-->
+        <!--AbsViewController-->
         <scene sceneID="piU-40-Z9g">
             <objects>
-                <viewController id="BZk-h5-m6T" customClass="AbsViewController" customModule="PruebaBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="AbsViewController" id="BZk-h5-m6T" customClass="AbsViewController" customModule="PruebaBP" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MHR-3S-qLr"/>
                         <viewControllerLayoutGuide type="bottom" id="Fua-5m-lGY"/>
@@ -440,7 +440,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Abstraccion1" translatesAutoresizingMaskIntoConstraints="NO" id="mgD-4s-efL">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="abstraction" translatesAutoresizingMaskIntoConstraints="NO" id="mgD-4s-efL">
                                 <rect key="frame" x="30" y="66" width="314" height="153"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="153" id="EBE-oU-WcG"/>
@@ -502,10 +502,10 @@
             </objects>
             <point key="canvasLocation" x="305" y="385"/>
         </scene>
-        <!--Leng View Controller-->
+        <!--LengViewController-->
         <scene sceneID="yiI-Vp-t9W">
             <objects>
-                <viewController id="TC2-HV-C0n" customClass="LengViewController" customModule="PruebaBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="LengViewController" id="TC2-HV-C0n" customClass="LengViewController" customModule="PruebaBP" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cNs-UF-Z50"/>
                         <viewControllerLayoutGuide type="bottom" id="RuI-Yz-gYA"/>
@@ -562,10 +562,10 @@
             </objects>
             <point key="canvasLocation" x="1286" y="385"/>
         </scene>
-        <!--Alg View Controller-->
+        <!--AlgViewController-->
         <scene sceneID="Xrc-6F-hBK">
             <objects>
-                <viewController id="nEz-O5-vOK" customClass="AlgViewController" customModule="PruebaBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="AlgViewController" id="nEz-O5-vOK" customClass="AlgViewController" customModule="PruebaBP" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="heQ-IW-Xg9"/>
                         <viewControllerLayoutGuide type="bottom" id="u9P-YB-end"/>
@@ -603,7 +603,7 @@
                                     <action selector="Src:" destination="nEz-O5-vOK" eventType="touchUpInside" id="tzL-hP-2Hj"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Algoritmo" translatesAutoresizingMaskIntoConstraints="NO" id="Epm-vh-upD">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="algorithm" translatesAutoresizingMaskIntoConstraints="NO" id="Epm-vh-upD">
                                 <rect key="frame" x="30" y="57" width="314" height="153"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="153" id="JTi-aB-FjM"/>
@@ -668,13 +668,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Abstraccion1" width="314" height="153"/>
-        <image name="Algoritmo" width="314" height="153"/>
-        <image name="ClaseEsp" width="314" height="153"/>
-        <image name="Con" width="314" height="153"/>
-        <image name="while" width="314" height="153"/>
+        <image name="abstraction" width="314" height="153"/>
+        <image name="algorithm" width="314" height="153"/>
+        <image name="class" width="314" height="153"/>
+        <image name="conditional" width="314" height="153"/>
+        <image name="loop" width="314" height="153"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="IMa-6X-lIQ"/>
+        <segue reference="9X9-GI-b9f"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -11,7 +11,7 @@ import UIKit
 class InformationTableViewController: UITableViewController {
     static var normal : UIControlState = []
     static var leng = "Español"
-    var txtSecc : String?
+    var txtSeccion : String?
     
     @IBOutlet weak var labelAbs: UILabel!
     @IBOutlet weak var labelAlg: UILabel!
@@ -23,31 +23,28 @@ class InformationTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
     }
-    //Manejo de Titulo de las Secciones
+    
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String?{
-        
         switch section {
         case 0 :
             if InformationTableViewController.leng == "Ingles"{
-                self.txtSecc = "Terms"
+                self.txtSeccion = "Terms"
             }else{
-                self.txtSecc = "Términos"
+                self.txtSeccion = "Términos"
             }
         case 1:
             if InformationTableViewController.leng == "Ingles"{
-                self.txtSecc = "Settings"
+                self.txtSeccion = "Settings"
             }else{
-                self.txtSecc = "Configuración"
+                self.txtSeccion = "Configuración"
             }
             
         default:
-            self.txtSecc = "No hay Dato"
+            self.txtSeccion = "NohayDatos"
         }
         
-        return self.txtSecc
+        return self.txtSeccion
     }
     
     override func viewWillAppear(_ animated: Bool) {
