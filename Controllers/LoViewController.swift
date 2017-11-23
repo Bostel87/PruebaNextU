@@ -20,7 +20,7 @@ class LoViewController: UIViewController {
         super.viewDidLoad()
 
             }
-    override func viewDidAppear(_ animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         if InformationTableViewController.leng == "Español"{
             self.labelLo.text = "Bucle"
             

@@ -20,7 +20,7 @@ class CoViewController: UIViewController {
 
         
     }
-    override func viewDidAppear(_ animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         if InformationTableViewController.leng == "Español"{
             self.labelCon.text = "Sentencia Condicional"
             self.textDesc.text = "En programación, una sentencia condicional es una instrucción o grupo de instrucciones que se pueden ejecutar o no en función del valor de una condición. \n\nLos tipos más conocidos de sentencias condicionales son el SI..ENTONCES (if..then), el SI..ENTONCES..SI NO (if..then..else) y el SEGÚN (case o switch), aunque también podríamos mencionar al manejo de excepciones como una alternativa más moderna para evitar el anidamiento de sentencias condicionales. \n\nLas sentencias condicionales constituyen, junto con los bucles, los pilares de la programación estructurada, y su uso es una evolución de una sentencia en lenguaje ensamblador que ejecutaba la siguiente línea o no en función del valor de una condición."

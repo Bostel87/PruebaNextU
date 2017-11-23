@@ -64,7 +64,7 @@ class InformationTableViewController: UITableViewController {
             self.labelCla.text = "Class"
             self.labelCo.text = "Conditional"
             self.labelLo.text = "Loop"
-            self.labelLeng.text = "Change Lenguage"
+            self.labelLeng.text = "Change Language"
            
         }
         tableView.reloadData()
